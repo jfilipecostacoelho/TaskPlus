@@ -7,6 +7,7 @@ export default function Home() {
     <div className={styles.container}>
 
       <main className={styles.main}>
+
         <div className={styles.logoContent}>
           <Image
             className={styles.hero}
@@ -17,8 +18,19 @@ export default function Home() {
           <h1 className={styles.title}>
             Organize your tasks in a <br/>simple way! 
           </h1>
+
+          <div className={styles.infoContent}>
+            <section className={styles.box}>
+              <span>+12 posts</span>
+            </section>
+
+            <section className={styles.box}>
+              <span>+90 comentários</span>
+            </section>
+          </div>
+
         </div>
-        
+
       </main>
     </div>
   );
