@@ -1,8 +1,10 @@
 import styles from "./styles.module.css";
 import Head from "next/head";
 
-export default function Dashboard(){
-    return(
+export default async function Dashboard() {
+    console.log("SERVER SIDE IS HERE!!");
+
+    return (
         <div className={styles.container}>
             <Head>
                 <title>My Taskboard</title>
@@ -12,5 +14,5 @@ export default function Dashboard(){
                 Board page
             </h1>
         </div>
-    )
+    );
 }
